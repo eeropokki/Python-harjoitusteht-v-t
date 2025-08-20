@@ -1,0 +1,10 @@
+n1 = int(input('Kerro joku kokonaisluku: '))
+n2 = int(input('Kerro joku kokonaisluku: '))
+n3 = int(input('Kerro joku kokonaisluku: '))
+
+summa = (n1 + n2 + n3)
+tulo = (n1 * n2 * n3)
+keskiarvo = (summa / 3)
+print (f'Summa on {summa}')
+print (f'Tulo on {tulo}')
+print (f'Keskiarvo on {keskiarvo}')
