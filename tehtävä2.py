@@ -1,5 +1,5 @@
 import math
 
 r = float(input('Mikä on ympyrän säde? '))
-a = 2 * math.pi * r
+a = math.pi * r **2
 print(f"Pinta-ala: {a:.2f}")
